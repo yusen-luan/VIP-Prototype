@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f75ed4d693b644d98c6e2ef4fa6aa5, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  dialogue:
+  - ...
+  - Do you know why I called you here today?
+  - "From day one, I've made it clear that we need the port to be \nstable enough
+    for investors! That's why you weren't supposed to legalise gambling!"
+  responses:
+  - responseText: but...but the funds were not enough
+    dialogObject: {fileID: 11400000, guid: 5e682121a6278154ab3d69ad66a4cd37, type: 2}
